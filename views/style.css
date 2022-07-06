@@ -1,0 +1,99 @@
+.all {
+    margin: 80px;
+    display: flex;
+}
+
+.child1 {
+    height: 600px;
+    width: 730px;
+}
+
+.logo {
+    height: 40px;
+    width: 310px;
+}
+
+.othervideo {
+    height: 600px;
+    width: 700px;
+}
+
+.child2 {
+    height: 600px;
+    width: 40px;
+}
+
+.oldtexts {
+    height: 530px;
+    width: 400px;
+}
+
+.currenttext {
+    height: 80px;
+    width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    float: right;
+}
+
+li {
+    margin: 5px 0;
+}
+
+#chatControls {
+    overflow: auto;
+}
+
+#userList {
+    left: 50%;
+    list-style: none;
+    margin: 0 0 0 250px;
+    background: #eee;
+    padding: 5px 10px;
+    width: 150px;
+    top: 30px;
+}
+
+#chat p {
+    margin: 5px 0;
+    font-weight: 300
+}
+
+#chat .timestamp {
+    top: 10px;
+    right: 10px;
+    font-size: 12px;
+}
+
+#chat article {
+    background: #eee;
+    padding: 10px;
+    margin: 10px 0;
+    border-left: 5px solid #aaa;
+    word-wrap: break-word;
+}
+
+#chat article:first-of-type {
+    background: #c9edc3;
+    border-left-color: #74a377;
+    animation: enter .2s 1;
+}
+
+@keyframes enter {
+    from {
+        transform: none;
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    to {
+        transform: none;
+    }
+}
